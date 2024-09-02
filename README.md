@@ -71,7 +71,28 @@ Weighing Machines </br>
 </p>
 
 ## PROGRAM
+```c
+const int buttonPin = 2;     
+const int ledPin =5;     
+int buttonState = 0; 
+void setup() {
+  pinMode(ledPin,OUTPUT);
+  pinMode(buttonPin, INPUT);
+}
 
+void loop()
+{
+  buttonState = digitalRead(buttonPin);
+  if (buttonState == HIGH) 
+{
+  digitalWrite(ledPin, HIGH);
+} 
+  else 
+{
+  digitalWrite(ledPin, LOW);
+}
+}
+```
 ## OUTPUT
 i)OFF
 <p align="center">
