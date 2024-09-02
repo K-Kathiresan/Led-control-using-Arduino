@@ -1,5 +1,5 @@
-#### KATHIRESAN K
-#### 212223110021
+#### NAME: KATHIRESAN K
+#### REG NO: 212223110021
 # Led-control-using-Arduino
 
 ## AIM
